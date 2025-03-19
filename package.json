@@ -1,11 +1,11 @@
 {
-  "name": "emmanuel_opadele-and-amari_buck-hw2",
+  "name": "testmain-2",
   "version": "1.0.0",
   "description": "A modern, browser-based world clock application with multiple time zone support and beautiful animations. Built with vanilla JavaScript and GSAP.\r ![World Clock App Screenshot](./images/Screenshot%202025-03-15%20095153.png)",
-
+  "main": "index.js",
   "scripts": {
-    "start": "parcel src/index.html",
-    "build": "parcel build src/index.html --public-url ./"
+    "start": "parcel index.html",
+    "build": "parcel build index.html --public-url ./"
   },
   "repository": {
     "type": "git",
@@ -19,6 +19,6 @@
   },
   "homepage": "https://github.com/Emmanuel9494/emmanuel_opadele-and-amari_buck-HW2#readme",
   "devDependencies": {
-    "parcel": "^2.13.3"
+    "parcel": "^2.14.1"
   }
 }
